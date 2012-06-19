@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang='ja'>
+  <head>
+    <meta charset='utf-8'>
+    <title>ペアプロ合コン02課題</title>
+    <link href="css/bootstrap.css" media="screen" rel="stylesheet" type="text/css" />
+    <link href="css/bootstrap-responsive.css" media="screen" rel="stylesheet" type="text/css" />
+
+    <style>
+      /*<![CDATA[*/
+        body {
+          padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
+        }
+          / Le fav and touch icons
+      /*]]>*/
+    </style>
+    <link href='images/favicon.ico' rel='shortcut icon'>
+    <link href='images/apple-touch-icon.png' rel='apple-touch-icon'>
+    <link href='images/apple-touch-icon-72x72.png' rel='apple-touch-icon' sizes='72x72'>
+    <link href='images/apple-touch-icon-114x114.png' rel='apple-touch-icon' sizes='114x114'>
+  </head>
+  <body>
+    <div class='navbar navbar-fixed-top'>
+      <div class='navbar-inner'>
+        <div class='container'>
+          <a class='btn btn-navbar' data-target='.nav-collapse' data-toggle='collapse'>
+            <span class='i-bar'></span>
+            <span class='i-bar'></span>
+            <span class='i-bar'></span>
+          </a>
+          <a class='brand' href='#'>ペアプロ合コン02課題</a>
+          <div class='container nav-collapse'>
+            <ul class='nav'>
+              <li><a href="/path1">課題1</a></li>
+              <li><a href="/path2">課題2</a></li>
+            </ul>
+          </div>
+          <!-- /.nav-collapse -->
+        </div>
+      </div>
+    </div>
+    <div class='container'>
+      <div class='content'>
+        <h1>ペアプロ合コン02課題</h1>
+        <div>
+          <p>課題を解いてペアプロ合コンへ参加しよう。</p>
+          <br />
+          <div id="subject1">
+            <h2>セレクタ</h2>
+            <h3>セレクタを利用して値を取得しよう。</h3>
+            <p>ボタンを押下した時に「ここに名前を表示してね」という所に div 要素の id yamada_name の htmlが入るjavascriptを書こう。</p>
+            <div id="yamada_name">山田</div>
+            <a id= "get_name" class="btn btn-info">名前を取得</a>
+            <div id="subject01_result">ここに名前を表示してね</div>
+          </div>
+          <br />
+          <h2>要素</h2>
+          <div id="subject2">
+            <h3>要素の追加</h2>
+            <p>要素を追加できるようにしよう</p>
+
+            <ul id="member_list">
+              <li id="akari">あかり</li>
+              <li id="kyoko">京子</li>
+              <li id="yui">結衣</li>
+              <li id="chinatsu">ちなつ</li>
+            </ul>
+
+            <a id= "add_sakurako" class="btn btn-info">櫻子を追加</a>
+            <a id= "add_himawari" class="btn btn-info">向日葵の追加</a>
+
+            <br />
+            <br />
+
+            <h3>要素の削除</h3>
+            <p>要素を削除してみよう</p>
+            <p>ボタンを押した時にリストの中から「あかり」ちゃんを消すjsを実装しよう。</p>
+
+            <ul id="member_list_remove">
+              <li id="akari">あかり</li>
+              <li id="kyoko">京子</li>
+              <li id="yui">結衣</li>
+              <li id="chinatsu">ちなつ</li>
+            </ul>
+
+            <a id= "remove_akari" class="btn btn-info">あかりを消す</a>
+          </div>
+
+        </div>
+      </div>
+      <footer>
+        <p>ペアプロ合コン運営委員会</p>
+      </footer>
+    </div>
+    <!-- /container -->
+    <!--
+      Le javascript
+      ==================================================
+    -->
+    <script src="js/jquery.js?body=1" type="text/javascript"></script>
+    <script src="js/bootstrap-alert.js?body=1" type="text/javascript"></script>
+    <script src="js/bootstrap-button.js?body=1" type="text/javascript"></script>
+    <script src="js/bootstrap-carousel.js?body=1" type="text/javascript"></script>
+    <script src="js/bootstrap-collapse.js?body=1" type="text/javascript"></script>
+    <script src="js/bootstrap-dropdown.js?body=1" type="text/javascript"></script>
+    <script src="js/bootstrap-modal.js?body=1" type="text/javascript"></script>
+    <script src="js/bootstrap-popover.js?body=1" type="text/javascript"></script>
+    <script src="js/bootstrap-scrollspy.js?body=1" type="text/javascript"></script>
+    <script src="js/bootstrap-tab.js?body=1" type="text/javascript"></script>
+    <script src="js/bootstrap-tooltip.js?body=1" type="text/javascript"></script>
+    <script src="js/bootstrap-transition.js?body=1" type="text/javascript"></script>
+    <script src="js/bootstrap-typeahead.js?body=1" type="text/javascript"></script>
+    <script src="js/user-edit.js?body=1" type="text/javascript"></script>
+    <!-- Placed at the end of the document so the pages load faster -->
+  </body>
+</html>
