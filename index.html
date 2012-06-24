@@ -29,12 +29,6 @@
             <span class='i-bar'></span>
           </a>
           <a class='brand' href='#'>ペアプロ合コン02課題</a>
-          <div class='container nav-collapse'>
-            <ul class='nav'>
-              <li><a href="/path1">課題1</a></li>
-              <li><a href="/path2">課題2</a></li>
-            </ul>
-          </div>
           <!-- /.nav-collapse -->
         </div>
       </div>
@@ -46,7 +40,7 @@
           <p>課題を解いてペアプロ合コンへ参加しよう。</p>
           <br />
           <div id="subject1">
-            <h2>セレクタ</h2>
+            <h2>問題1 セレクタ</h2>
             <h3>セレクタを利用して値を取得しよう。</h3>
             <p>ボタンを押下した時に「ここに名前を表示してね」という所に div 要素の id yamada_name の htmlが入るjavascriptを書こう。</p>
             <div id="yamada_name">山田</div>
@@ -54,10 +48,11 @@
             <div id="subject01_result">ここに名前を表示してね</div>
           </div>
           <br />
-          <h2>要素</h2>
+          <br />
           <div id="subject2">
-            <h3>要素の追加</h2>
-            <p>要素を追加できるようにしよう</p>
+            <h2>問題2 要素の追加</h2>
+            <h3>セレクタを利用し要素を追加しよう</h3>
+            <p>ボタンを押下した時にリストに名前を追加できるjsを実装してみよう！</p>
 
             <ul id="member_list">
               <li id="akari">あかり</li>
@@ -68,13 +63,13 @@
 
             <a id= "add_sakurako" class="btn btn-info">櫻子を追加</a>
             <a id= "add_himawari" class="btn btn-info">向日葵の追加</a>
-
-            <br />
-            <br />
-
-            <h3>要素の削除</h3>
-            <p>要素を削除してみよう</p>
-            <p>ボタンを押した時にリストの中から「あかり」ちゃんを消すjsを実装しよう。</p>
+          </div>
+          <br />
+          <br />
+          <div id="subject3">
+            <h2>問題3 要素の削除</h2>
+            <h3>要素を削除してみよう</h3>
+            <p>ボタンを押した時にリストの中からあかりちゃんを消すjsを実装しよう。</p>
 
             <ul id="member_list_remove">
               <li id="akari">あかり</li>
@@ -82,9 +77,33 @@
               <li id="yui">結衣</li>
               <li id="chinatsu">ちなつ</li>
             </ul>
-
             <a id= "remove_akari" class="btn btn-info">あかりを消す</a>
           </div>
+          <br />
+          <br />
+          <div id="subject4">
+            <h2>問題4 表示、非表示の切り替え</h2>
+            <h3>HTML要素の表示、非表示を切り替えよう</h3>
+            <p>要素の表示非表示を切り替えてみよう！ボタンを押した時に id:stealth_momo を表示し、もう一度おしたら非表示にするjsを実装しよう</p>
+            <div id="stealth_momo" style="display:none">
+               ステルスモモ
+            </div>
+            <br />
+            <br />
+            <a id= "change_visible_momo" class="btn btn-info">表示を切り替える</a>
+          </div>
+          <br />
+          <br />
+          <div id="subject5">
+            <h2>問題5 複数の要素の変更</h2>
+            <h3>複数の要素のテキストを変更してみよう</h3>
+            <p>ボタンを押した時にこのページのh2要素を【】で囲むjsを実装しよう<br/>
+            <p>例 問題5 複数の要素の変更 -> 【問題5 複数の要素の変更】</p>
+            <br />
+            <br />
+            <a id= "change_header_html" class="btn btn-info">文字を変化する</a>
+          </div>
+
 
         </div>
       </div>
