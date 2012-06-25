@@ -1,0 +1,11 @@
+body {
+  padding-top: 60px;
+}
+
+.stealth_momo_outer {
+  height: 27px;
+}
+
+#stealth_momo {
+  display: none;
+}
